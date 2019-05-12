@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.box{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 0 5px;
+}
+p,h4{
+  text-align: left;
+}
+.logindiv{
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 60px;
+}
+.btn{
+  margin-top: 15px;
+}
+.datadiv{
+  margin: 0 auto;
+  margin-top: 40px;
+  display: inline-block;
+  width: 95%;
+  overflow-x: scroll;
+  
+}
+table{
+}
+/* td{
+  border: 1px solid black;
+
+  padding: 5px;
+} */
+
+.floatingBtn1{
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  margin-bottom: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 12px;
+  box-shadow: 0;
+  background: transparent;
+  border-color: #00AA66;
+  color: #00AA66;
+  border-style: solid;
+  transition: 2s;
+
+   
+}
+.floatingBtn1:hover{
+  background-color: #00AA66;
+  color: white;
+  transition: 1s;
+
+}
+
+.selectedEmployee{
+  background-color: black !important;
+  color: white;
+}
+
+.modifyBtn1{
+  position: fixed;
+  right: 10%;
+  bottom: 18%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 11px;
+  box-shadow: 0;
+  background: transparent;
+  border-color: #00AA66;
+  color: #00AA66;
+  border-style: solid;
+  transition: 2s;
+  margin-bottom: 2px;
+   
+}
+.modifyBtn1:hover{
+  background-color: #00AA66;
+  color: white;
+  transition: 1s;
+
+}
+.modifyBtn2{
+  position: fixed;
+  right: 10%;
+  bottom: 26%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 11px;
+  box-shadow: 0;
+  background: transparent;
+  border-color: #00AA66;
+  color: #00AA66;
+  border-style: solid;
+  transition: 2s;  
+  margin-bottom: 2px;
+}
+
+.modifyBtn2:hover{
+  background-color: #00AA66;
+  color: white;
+  transition: 1s;
+
+}
+
+.modifyBtnHide{
+  position: fixed;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1px;
+  box-shadow: 0;
+  background: transparent;
+  border-color: #00AA66;
+  color: #00AA66;
+  border-style: solid;
+
+
+  bottom: 10%;
+  visibility: hidden;
+  transition: 2s;
+
+}
+
+
+.logoutBtn{
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  width: 60px;
+  height: 35px;
+  border-radius: 07px;
+  box-shadow: 0;
+  background: transparent;
+  border-color: #00AA66;
+  background-color: black;
+  color: #00AA66;
+  border-style: solid;
+  transition: 1s;
+
+}
+
+.logoutBtn:hover{
+
+  color: white;
+  border-color: white;
+
+  transition: 1s;
+}
+.center{
+  margin-top: 10px;
+  text-align: center;
+}
